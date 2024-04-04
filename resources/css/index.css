@@ -224,4 +224,14 @@ p{
     h1{
         font-size: 1.4rem;
     }
+
+    .proyectos{
+        width: 100%;
+        padding: 0px 0px;
+    }
+    
+    .contenedor-proyecto{
+        width: 100%;
+        margin: 5px 5px;
+    }
 }
