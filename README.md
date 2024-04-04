@@ -1,3 +1,4 @@
 #Portfolio about Jair Alexis Morocho Duran
-##Bibliography
-He is a man
+##About Jair
+##Skills
+##Pro

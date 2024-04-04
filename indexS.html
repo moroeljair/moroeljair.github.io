@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jair Morocho</title>
+    <link rel="stylesheet" href="resources/css/index.css">
+    <link rel="icon" href="resources/icons/letra-j.png" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <header>
+        <div class="title">
+            <h1><i>Jair Morocho</i></h1>
+        </div>
+        <div class="lista">
+            <nav>
+                <ul>
+                    <li><a href="#about-me">Acerca de mí</a></li>
+                    <li><a href="#my-projects">Proyectos</a></li>
+                    <li><a href="#my-skills">Habilidades</a></li>
+                    <li><a href="#contact">Contacto</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    
+
+    <div class="idiomas">
+        <img src="resources/icons/espana.png" id="spanish" alt="spanish">
+        <img src="resources/icons/reino-unido.png" id="english" alt="english">
+    </div>
+
+    <main>
+        <div class="contenedor-about">
+            <div class="contenedor-img">
+                <img src="resources/images/img2.jpg" alt="">
+            </div>
+            <div class="contenedor-info" id="about-me">
+                <h3>Acerca de mí</h3>
+                <p>
+                    <i class="fas fa-user"></i> Soy una persona disciplinada e inteligente con una fuerte ética de trabajo <i class="fas fa-hammer"></i> y un compromiso con la excelencia <i class="fas fa-medal"></i>. 
+                    Disfruto enfrentando desafíos <i class="fas fa-bullseye"></i> con precisión y creatividad, manteniendo un estilo de vida activo y saludable <i class="fas fa-running"></i> con una pasión por el ejercicio <i class="fas fa-dumbbell"></i> y la naturaleza <i class="fas fa-tree"></i>. Tengo habilidades fuertes para el trabajo en equipo <i class="fas fa-users"></i>, colaborando con colegas para lograr objetivos comunes <i class="fas fa-hands-helping"></i> a través de una comunicación abierta y respetuosa <i class="fas fa-comments"></i>. Comprometido con la mejora continua <i class="fas fa-rocket"></i> en el campo de la ingeniería de software <i class="fas fa-laptop-code"></i>, siempre busco oportunidades para crecer profesionalmente <i class="fas fa-chart-line"></i> y contribuir en proyectos innovadores <i class="fas fa-lightbulb"></i>.
+                </p>
+            </div>
+        </div>    
+    
+        <div class="formacion">
+            <h2>Mi formación</h2>
+            <div class="contenedor-formacion">
+                <h3 id="bandera1"><i class="fa-solid fa-arrow-right" style="color: #406887;"></i> Bachiller en Ciencias</h3>
+                <div id="formacion1">
+                    <p>Graduado de la Unidad Particular La Salle con un título de Bachiller en Ciencias, con un promedio de 8.92 sobre 10, otorgado el 24 de julio de 2017.</p>
+                </div>
+            </div>
+            <div class="contenedor-formacion">
+                <h3 id="bandera2"><i class="fa-solid fa-arrow-right" style="color: #406887;"></i> Ingeniería en Ciencias de la Computación</h3>
+                <div id="formacion2">
+                    <p>
+                        Graduado en Ingeniería en Ciencias de la Computación de la Universidad Politécnica Salesiana del Ecuador, poseo una sólida formación académica en programación, estadísticas, gestión de bases de datos, Linux, y otras habilidades relevantes. Mantuve un promedio de 9.2 sobre 10.
+                        <a href="resources/pdfs/notes_jair.pdf" download><i class="fa-solid fa-file-pdf" style="color: #406887;"></i></a>
+                    </p>
+                </div>
+            </div>
+            <div class="contenedor-formacion">
+                <h3 id="bandera3"><i class="fa-solid fa-arrow-right" style="color: #406887;"></i> Desarrollador Full Stack</h3>
+                <div id="formacion3">
+                    <p>
+                        Completé el programa de formación de Desarrollador Full Stack en Codecademy, un curso integral diseñado para equipar a los estudiantes con habilidades de desarrollo tanto frontend como backend. Este programa intensivo cubrió una amplia gama de tecnologías y lenguajes de programación, incluyendo HTML, CSS, JavaScript, Node.js, React y SQL. A través de proyectos prácticos y ejercicios interactivos, adquirí experiencia práctica en la construcción de aplicaciones web completas, desde el diseño de interfaces de usuario hasta la implementación de servidores y bases de datos. 
+                        <a href="resources/pdfs/notes_jair.pdf" download><i class="fa-solid fa-file-pdf" style="color: #406887;"></i></a>
+                    </p>
+                </div>
+            </div>
+        </div>
+        
+        <div class="proyectos" id="my-projects">
+            <h2>Mis proyectos</h2>
+            <div class="contenedor-proyecto">
+                <h3 id="bandera4"><i class="fa-solid fa-arrow-right" style="color: #406887;"></i> Detector de Similitud de Código Fuente</h3>
+                <div id="proyecto1">
+                    <h4>¿De qué se trata?</h4>
+                    <p>Mide el nivel de similitud entre dos pares de código fuente. El programa toma como entrada dos o más archivos de código fuente y mide el nivel de similitud que existe entre cada par. La similitud varía del 0% al 100% si es exactamente igual.</p>
+                    <h4>¿Cómo se hizo?</h4>
+                    <p>El proceso consta de varias etapas:</p>
+                    <ul>
+                        <li><b>Proceso de NLP:</b> Tokenización, eliminación de comentarios, identificación de variables, eliminación de variables.</li>
+                        <li>Construcción de una Bolsa de Tokens.</li>
+                        <li>Modelo de Frecuencia de Término.</li>
+                        <li>Coseno Vectorial.</li>
+                        <li>Creación de la Matriz de Similitud.</li>
+                    </ul>
+                    <h4>Tecnologías utilizadas</h4>
+                    <p>Flask para el backend, HTML y CSS para la estructura y diseño web, y Python y JavaScript para la lógica y funcionalidad del programa.</p>
+                    <h4>Repositorio</h4>
+                    <a href="https://github.com/SimilaCode/SimilaCode" target="_blank">Similacode</a>           
+                </div>
+            </div>
+            <div class="contenedor-proyecto">
+                <h3 id="bandera5"><i class="fa-solid fa-arrow-right" style="color: #406887;"></i> Sistema de Gestión de Medicación para Enfermeros</h3>
+                <div id="proyecto2">
+                    <h4>¿Qué problema resuelve?</h4>
+                    <p>El sistema tiene una lista de medicamentos con su nombre, descripción y stock.</p>
+                    <p>Existen cuatro roles: administrador, enfermero, farmacéutico y paciente.</p>
+                    
+                    <h4>¿Qué hace cada rol?</h4>
+                    <ul>
+                        <li><strong>Administrador:</strong> Puede crear usuarios (enfermero, farmacéutico o administrador); puede gestionar a los usuarios (eliminar/editar); editar su perfil.</li>
+                        <li><strong>Enfermero:</strong> Puede realizar un pedido al farmacéutico, ingresando el ID del paciente y la lista de medicamentos solicitados.</li>
+                        <li><strong>Farmacéutico:</strong> El farmacéutico tiene la lista de peticiones que necesita ejecutar. Una vez que la lista esté lista, cambia de estado a 'entregar'. Una vez se entregue la petición, cambia de estado a 'entregado'.</li>
+                        <li><strong>Paciente:</strong> Puede ver las recetas médicas.</li>
+                    </ul>
+                    
+                    <h4>Tecnologías utilizadas:</h4>
+                    <ul>
+                        <li>Flask</li>
+                        <li>HTML</li>
+                        <li>CSS</li>
+                        <li>Python</li>
+                        <li>JavaScript</li>
+                    </ul>                    
+                    <h4>Repositorio</h4>
+                    <a href="https://github.com/moroeljair/solicitudMedicamentos/tree/master" target="_blank">Sistema de Gestión de Medicación para Enfermeros</a>
+                </div>
+            </div>
+        </div>
+    
+    <div class="skills" id="my-skills">
+    <h2>Mis habilidades</h2>
+    <img src="resources/icons/html.png" alt="html">
+    <img src="resources/icons/css-3.png" alt="css">
+    <img src="resources/icons/js.png" alt="java script">
+    <img src="resources/icons/servidor-sql.png" alt="sql">
+    <img src="resources/icons/git.png" alt="git">
+    <img src="resources/icons/github.png" alt="github">
+    <img src="resources/icons/programacion.png" alt="nodejs">
+    <img src="resources/icons/reactjs.png" alt="reactjs">
+    <img src="resources/icons/redux.png" alt="redux">
+    <img src="resources/icons/elefante.png" alt="postgresql">
+    <img src="resources/icons/piton.png" alt="python">
+    </div>
+    
+    <div class="contact" id="contact">
+    <p><i class="fa-solid fa-envelope" style="color: #ffffff;"></i> jairmorocho99@gmail.com</p>
+    <p><i class="fa-brands fa-github" style="color: #fcfcfc;"></i> moroeljair</p>
+    <p><i class="fa-brands fa-linkedin" style="color: #dbdfe6;"></i> Jair Alexis Morocho Duran</p>
+    </div>
+    
+    </main>
+    
+<script src="s1.js"></script>
+<script src="idiomas.js"></script>
+
+</body>
+</html>

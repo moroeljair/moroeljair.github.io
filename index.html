@@ -3,58 +3,157 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Jair Alexis</title>
+    <title>Jair Morocho</title>
     <link rel="stylesheet" href="resources/css/index.css">
+    <link rel="icon" href="resources/icons/letra-j.png" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
 </head>
 <body>
     <header>
         <div class="title">
-            <h1>Jair Alexis Morocho Duran</h1>
+            <h1><i>Jair Morocho</i></h1>
         </div>
         <div class="lista">
             <nav>
                 <ul>
-                    <li>About me</li>
-                    <li>My projects</li>
-                    <li>My skills</li>
+                    <li><a href="#about-me">About me</a></li>
+                    <li><a href="#my-projects">Projects</a></li>
+                    <li><a href="#my-skills">Skills</a></li>
+                    <li><a href="#contact">Contact</a></li>
                 </ul>
             </nav>
         </div>
     </header>
 
-    <div class="contenedor-img">
-        <img class="img-jair" src="resources/images/perfil.jpg" alt="">
+    <div class="idiomas">
+        <img src="resources/icons/espana.png" id="spanish" alt="spanish">
+        <img src="resources/icons/reino-unido.png" id="english" alt="english">
     </div>
 
     <main>
-        <article>
-            <h3>About me</h3>
-            <p>The leyend says that some child was born in Quito, Ecuador in 1999. 
-                This child was called Jair. His birthday is 20 april therefore is Aries. 
-            His passions are:</p>
-            <ul>
-                <li>Playing soccer</li>
-                <li>Programing</li>
-                <li>Reading</li>
-                <li>Watching series</li>
-            </ul>
-        </article>
-    </main>
-    
-    <div class="contenedor1">
-        <img class="img-jaires" src="resources/images/img1.jpg" alt="">
-        <img class="img-jaires" src="resources/images/img2.jpg" alt="">
-        <img class="img-jaires" src="resources/images/img3.jpg" alt="">
-    </div>
+        <div class="contenedor-about">
+            <div class="contenedor-img">
+                <img  src="resources/images/img2.jpg" alt="">
+            </div>
+            <div class="contenedor-info" id="about-me">
+                <h3>About me</h3>
+                <p>
+                    <i class="fas fa-user"></i> I am a disciplined and intelligent individual 
+                    with a strong work ethic <i class="fas fa-hammer"></i> and a commitment to excellence <i class="fas fa-medal"></i>. 
+                    I enjoy tackling challenges <i class="fas fa-bullseye"></i> with precision and creativity, maintaining an active 
+                    and healthy lifestyle <i class="fas fa-running"></i> with a passion for exercise <i class="fas fa-dumbbell"></i> 
+                    and the outdoors <i class="fas fa-tree"></i>. I have strong teamwork <i class="fas fa-users"></i> skills, 
+                    collaborating with colleagues to achieve common goals <i class="fas fa-hands-helping"></i> through open 
+                    and respectful communication <i class="fas fa-comments"></i>. Committed to continuous improvement <i class="fas fa-rocket"></i> 
+                    in the field of software engineering <i class="fas fa-laptop-code"></i>, I am always seeking opportunities to grow professionally <i class="fas fa-chart-line"></i> 
+                    and contribute to innovative projects <i class="fas fa-lightbulb"></i>.
+                </p>
+            </div>
+        </div>    
 
-<article class="contenido">    
-    <p>I'm learning to code on Codecademy! My goals include:</p>
-    <ul>
-    <li>Learn to code</li>
-    <li>Start a company</li>
-    <li>Help the world</li>
-    </ul>
-    <p>This is one of my favorite websites: <a href="https://www.google.com/" target="_blank">Google</a></p>
-</article>
+        <div class="formacion">
+            <h2>My background</h2>
+            <div class="contenedor-formacion">
+                <h3 id="bandera1"><i class="fa-solid fa-arrow-right" style="color: #406887;"></i> Bachelor of Science</h3>
+                <div id="formacion1">
+                    <p>Graduated from La Salle Private Unit with a Bachelor of Science degree, with an average grade of 8.92 out of 10, awarded on July 24, 2017.</p>
+                </div>
+            </div>
+            <div class="contenedor-formacion">
+                <h3 id="bandera2"><i class="fa-solid fa-arrow-right" style="color: #406887;"></i> Computer Science Engineering</h3>
+                <div id="formacion2">
+                    <p>
+                        Graduated with a degree in Computer Science Engineering from the Universidad Politécnica Salesiana del Ecuador, I possess a strong academic background in programming, statistics, database management, Linux, and other relevant skills. I maintained an average grade of 9.2 out of 10.
+                        <a href="resources/pdfs/notes_jair.pdf" download><i class="fa-solid fa-file-pdf" style="color: #406887;"></i></a>
+                    </p>
+                </div>
+            </div>
+            <div class="contenedor-formacion">
+                <h3 id="bandera3"><i class="fa-solid fa-arrow-right" style="color: #406887;"></i> Full Stack Developer</h3>
+                <div id="formacion3">
+                    <p>
+                        I completed the Full Stack Developer training program at Codecademy, a comprehensive course designed to equip students with both frontend and backend development skills. This intensive program covered a wide range of technologies and programming languages, including HTML, CSS, JavaScript, Node.js, React, and SQL. Through hands-on projects and interactive exercises, I gained practical experience in building complete web applications, from designing user interfaces to implementing servers and databases. 
+                        <a href="resources/pdfs/notes_jair.pdf" download><i class="fa-solid fa-file-pdf" style="color: #406887;"></i></a>
+                    </p>
+                </div>
+            </div>
+        </div>
+        
+        <div class="proyectos" id="my-projects">
+            <h2>My projects</h2>
+            <div class="contenedor-proyecto">
+                <h3 id="bandera4"><i class="fa-solid fa-arrow-right" style="color: #406887;"></i> Source Code Similarity Detector</h3>
+                <div id="proyecto1">
+                    <h4>What is it about?</h4>
+                    <p> It measures the level of similarity between two pairs of source code. The program takes as input two or more source code files and measures the level of similarity that exists between each pair. Similarity ranges from 0% to 100% if it is exactly the same.</p>
+                    <h4>How was it done?</h4>
+                    <p>The process consists of several stages:</p>
+                    <ul>
+                        <li><b>NLP Process: </b>Tokenization, comment removal, variable identification, variable elimination.</li>
+                        <li>Construction of a Bag of Tokens.</li>
+                        <li>Term-Frequency Model.</li>
+                        <li>Vector Cosine.</li>
+                        <li>Creation of the Similarity Matrix.</li>
+                    </ul>
+                    <h4>Tech stack</h4>
+                    <p>Flask for the backend, HTML and CSS for web structure and design, and Python and JavaScript for the program's logic and functionality.</p>
+                    <h4>Repository</h4>
+                    <a href="https://github.com/SimilaCode/SimilaCode" target="_blank">Similacode</a>           
+                </div>
+            </div>
+            <div class="contenedor-proyecto">
+                <h3 id="bandera5"><i class="fa-solid fa-arrow-right" style="color: #406887;"></i> Nurse Medication Management System</h3>
+                <div id="proyecto2">
+                    <h4>What problem does it solve?</h4>
+                    <p>The system has a list of medications with their name, description, and stock.</p>
+                    <p>There are four roles: administrator, nurse, pharmacist, and patient.</p>
+                    
+                    <h4>What does each role do?</h4>
+                    <ul>
+                        <li><strong>Administrator:</strong> Can create users (nurse, pharmacist, or administrator); can manage users (delete/edit); edit their profile.</li>
+                        <li><strong>Nurse:</strong> Can place an order to the pharmacist, entering the patient's ID and the list of requested medications.</li>
+                        <li><strong>Pharmacist:</strong> The pharmacist has the list of requests that need to be executed. Once the list is ready, it changes its status to 'deliver'. Once the request is delivered, it changes its status to 'delivered'.</li>
+                        <li><strong>Patient:</strong> Can view medical prescriptions.</li>
+                    </ul>
+                    
+                    <h4>Technologies Used:</h4>
+                    <ul>
+                        <li>Flask</li>
+                        <li>HTML</li>
+                        <li>CSS</li>
+                        <li>Python</li>
+                        <li>JavaScript</li>
+                    </ul>                    
+                    <h4>Repository</h4>
+                    <a href="https://github.com/moroeljair/solicitudMedicamentos/tree/master" target="_blank">Nurse Medication Management System</a>
+                </div>
+            </div>
+        </div>
+
+<div class="skills" id="my-skills">
+    <h2>My Skills</h2>
+    <img src="resources/icons/html.png" alt="html">
+    <img src="resources/icons/css-3.png" alt="css">
+    <img src="resources/icons/js.png" alt="java script">
+    <img src="resources/icons/servidor-sql.png" alt="sql">
+    <img src="resources/icons/git.png" alt="git">
+    <img src="resources/icons/github.png" alt="github">
+    <img src="resources/icons/programacion.png" alt="nodejs">
+    <img src="resources/icons/reactjs.png" alt="reactjs">
+    <img src="resources/icons/redux.png" alt="redux">
+    <img src="resources/icons/elefante.png" alt="postgresql">
+    <img src="resources/icons/piton.png" alt="python">
+</div>
+
+<div class="contact" id="contact">
+    <p><i class="fa-solid fa-envelope" style="color: #ffffff;"></i> jairmorocho99@gmail.com</p>
+    <p><i class="fa-brands fa-github" style="color: #fcfcfc;"></i> moroeljair</p>
+    <p><i class="fa-brands fa-linkedin" style="color: #dbdfe6;"></i> Jair Alexis Morocho Duran</p>
+</div>
+
+</main>
+<script src="s1.js"></script>
+<script src="idiomas.js"></script>
+
 </body>
 </html>
