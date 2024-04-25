@@ -27,11 +27,17 @@ main{
 
 header{
     background-color: #0f284a;
-    padding: 10px;
     display: flex;
     flex-wrap: wrap;
     justify-content: left;
     align-items: center;
+    padding: 10px 0;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000; /* Asegura que el encabezado esté por encima de otros elementos */
+    
 }
 
 p{
@@ -45,6 +51,7 @@ p{
 
 .idiomas img{
     width: 40px;
+    cursor: pointer;
 }
 
 .title{
@@ -106,6 +113,7 @@ p{
 
 .formacion h3{
     color: #DDDDDD;
+    cursor: pointer;
 }
 
 .contenedor-formacion{
@@ -135,6 +143,7 @@ p{
 .contenedor-proyecto h3{
     text-align: center;
     color: #DDDDDD;
+    cursor: pointer;
 }
 
 .contenedor-proyecto ul{
@@ -176,6 +185,11 @@ p{
     margin: 10px;
 }
 
+.contact a{
+    text-decoration: none;
+    color: #CCCCCC;
+}
+
 .img-jair:hover{
     width: 54%;
     margin: 10px 23%;
@@ -206,7 +220,7 @@ p{
 @media only screen and
 (max-width: 480px) {
     main{
-        margin: 5px;
+        margin: 70px 5px;
     }
 
     .contenedor-info{
